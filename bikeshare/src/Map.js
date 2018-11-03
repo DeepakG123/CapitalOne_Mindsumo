@@ -27,7 +27,7 @@ class Map extends React.Component {
       <br/>
         <Map1
           style="mapbox://styles/deepakg123/cjhqzkvx54nra2qmjyc8d4n7t"
-          containerStyle={{ width: "500px", height: "500px" }}
+          containerStyle={{ width: "100vh", height: "50vh" }}
           center={this.state.center}
           zoom={this.state.zoom}
         >
